@@ -36,8 +36,20 @@
   color: #888;
 }
 
+.headingSm li {
+  margin-bottom: 12px;
+}
+
 .headingSm li strong {
-  margin-right: 8px;  
+  display: inline-block; 
+}
+
+.headingSm ul {
+  list-style-type: none;
+}
+
+.headingSm ul li {
+  margin-bottom: 5px;
 }
 
 .borderCircle {
