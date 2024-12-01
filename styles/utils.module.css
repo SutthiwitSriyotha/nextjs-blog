@@ -36,23 +36,6 @@
   color: #888;
 }
 
-.headingSm li {
-  margin-bottom: 12px;
-}
-
-.headingSm li strong {
-  display: inline-block;
-  width: 200px; /* ปรับขนาดให้เหมาะสม */
-}
-
-.headingSm ul {
-  list-style-type: none;
-  padding-left: 20px;
-}
-
-.headingSm ul li {
-  margin-bottom: 5px;
-}
 
 .borderCircle {
   border-radius: 9999px;
