@@ -49,17 +49,24 @@ export default function Layout({ children, home }) {
             <p className={utilStyles.headingMd}>
               I am a passionate and dedicated Software Engineer with skills in various areas of technology and teamwork. Here’s a bit more about me:
             </p>
-            <ul className={utilStyles.headingSm}>
-              <strong>Data Analysis & Management:</strong> I have experience in collecting, organizing, and analyzing data to derive actionable insights.
-              <li><strong>Test Case Development:</strong> I've developed detailed test cases to ensure software functionality and quality.</li>
-              <li><strong>Team Collaboration:</strong> I’ve worked in Scrum teams, contributing to Agile projects by participating in sprints, stand-ups, and retrospectives.</li>
-              <strong>Technical Skills:</strong>
-                <ul>
+            <ul className={utilStyles.headingSmli}>
+              <li>
+                <strong>Data Analysis & Management:</strong> I have experience in collecting, organizing, and analyzing data to derive actionable insights.
+              </li>
+              <li>
+                <strong>Test Case Development:</strong> I've developed detailed test cases to ensure software functionality and quality.
+              </li>
+              <li>
+                <strong>Team Collaboration:</strong> I’ve worked in Scrum teams, contributing to Agile projects by participating in sprints, stand-ups, and retrospectives.
+              </li>
+              <li>
+                <strong>Technical Skills:</strong>
+                <ul className={utilStyles.nestedList}>
                   <li>HTML, CSS, JavaScript for web development.</li>
                   <li>Python for scripting and problem-solving.</li>
                   <li>Git for version control and collaborative development.</li>
                 </ul>
-              
+              </li>
             </ul>
             <p className={utilStyles.headingMd}>
               I enjoy solving complex problems, learning new technologies, and working collaboratively to create meaningful software solutions. Let’s build something amazing together!
