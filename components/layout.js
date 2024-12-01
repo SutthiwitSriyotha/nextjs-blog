@@ -6,8 +6,8 @@ import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 
-const name = '[fone se66]';
-export const siteTitle = 'Next.js Sample Website';
+const name = '[Sutthiwit Portfolio]';
+export const siteTitle = 'Portfolio | Sutthiwit SE66';
 
 export default function Layout({ children, home }) {
   return (
